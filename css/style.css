@@ -3,3 +3,19 @@
   padding: 0;
   font-family: 'Comfortaa', cursive;
 }
+
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.bgHero {
+  background-image: url('../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
