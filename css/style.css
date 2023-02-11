@@ -44,3 +44,12 @@
 .judulsedang {
   font-size: 2.25em;
 }
+
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+  .judulbesar {
+    font-size: 1em;
+  }
+  .judulsedang {
+    font-size: 0.5em;
+  }
+}
