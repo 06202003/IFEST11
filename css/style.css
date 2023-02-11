@@ -19,3 +19,28 @@
   background-size: cover;
   height: 100vh;
 }
+
+.ting {
+  height: 100vh;
+}
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.navigasi {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.bgnav {
+  background-color: rgb(84, 58, 29, 0.8);
+}
+.tinggi-cont {
+  height: 100vh;
+}
+.judulbesar {
+  font-size: 3.5em;
+}
+.judulsedang {
+  font-size: 2.25em;
+}
