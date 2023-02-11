@@ -7,8 +7,8 @@
 .logo {
   width: 100%;
   height: auto;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .bgHero {
@@ -44,13 +44,25 @@
 .judulsedang {
   font-size: 2.25em;
 }
+.judulkecil {
+  font-size: 1em;
+}
 
 @media only screen and (min-width: 319px) and (max-width: 767px) {
+  .logo {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+  }
   .judulbesar {
-    font-size: 1em;
+    font-size: 2.5em;
   }
   .judulsedang {
-    font-size: 0.5em;
+    font-size: 1.5em;
+  }
+  .judulkecil {
+    font-size: 0.7em;
   }
   .navigasi {
     padding-left: 0rem;

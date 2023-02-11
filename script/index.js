@@ -10,8 +10,8 @@ window.addEventListener('scroll', function () {
   } else {
     nav.classList.remove('bgnav', 'shadow');
     if (logo && logo.style) {
-      logo.style.height = '200px';
-      logo.style.width = '200px';
+      logo.style.height = '150px';
+      logo.style.width = '150px';
     }
   }
 });
