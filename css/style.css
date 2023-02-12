@@ -95,6 +95,21 @@ body {
   max-height: 400px;
 }
 /* 2 */
+
+/* foot */
+
+.link-secondary {
+  text-decoration: none;
+}
+.logofoot {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 2rem auto 2rem;
+  display: block;
+}
+/* foot */
 @media only screen and (min-width: 319px) and (max-width: 767px) {
   .logo {
     width: 100%;
