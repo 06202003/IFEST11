@@ -13,7 +13,7 @@ body {
 .logo {
   width: 100%;
   height: auto;
-  max-width: 100px;
+  max-width: 50px;
   max-height: 100px;
 }
 
@@ -23,8 +23,8 @@ body {
 }
 
 .navigasi {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  /* padding-left: 10rem; */
+  /* padding-right: 10rem; */
 }
 .bgnav {
   background-color: rgb(97, 51, 18, 0.9);
@@ -44,12 +44,12 @@ body {
 
 .nav-link,
 .nav-link:visited {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: white !important;
 }
 
 .nav-link:hover {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: white !important;
 }
 
@@ -114,7 +114,7 @@ body {
   .logo {
     width: 100%;
     height: auto;
-    max-width: 100px;
+    max-width: 50px;
     max-height: 100px;
   }
   .judulbesar {
