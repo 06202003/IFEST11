@@ -11,9 +11,9 @@ body {
   background-size: cover;
 }
 .logo {
-  width: 100%;
+  width: 35px;
   height: auto;
-  max-width: 50px;
+  max-width: 35px;
   max-height: 100px;
 }
 
@@ -109,6 +109,38 @@ body {
   margin: 2rem auto 2rem;
   display: block;
 }
+
+/* Button Login */
+.btnlog {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: whitesmoke;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #b29050;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #b29050;
+}
+
+.btnlog:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #b29050;
+}
+
+.btnlog:active {
+  transform: scale(0.9);
+}
+/* End Button Login */
+
+
+
 /* foot */
 @media only screen and (min-width: 319px) and (max-width: 767px) {
   .logo {
