@@ -36,12 +36,13 @@ svg {
   align-items: center;
   padding-top: 10px;
   border-top: 1px solid #ddd;
+  margin-top: 3rem;
 }
 
 /*Text*/
 .text-title {
   font-weight: 900;
-  font-size: 1.2em;
+  font-size: 1.75em;
   line-height: 1.5;
 }
 
