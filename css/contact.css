@@ -12,46 +12,27 @@ body {
   height: 100vh;
 }
 .logo {
-  width: 100%;
+  width: 35px;
   height: auto;
-  max-width: 100px;
+  max-width: 35px;
   max-height: 100px;
-}
-
-.bgHero {
-  height: 100vh;
-  width: 100%;
-}
-
-.navigasi {
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 .bgnav {
   background-color: rgb(97, 51, 18, 0.9);
 }
-.tinggi-cont {
-  height: 100vh;
-}
-.judulbesar {
-  font-size: 3.5em;
-}
-.judulsedang {
-  font-size: 2.25em;
-}
-.judulkecil {
-  font-size: 1em;
+.bgnav1 {
+  color: black;
 }
 
 .nav-link,
 .nav-link:visited {
-  font-size: 1.3em;
-  color: white !important;
+  font-size: 1.2em;
+  color: white;
 }
 
 .nav-link:hover {
-  font-size: 1.3em;
-  color: white !important;
+  font-size: 1.2em;
+  color: white;
 }
 
 .nav-link::after {
@@ -67,20 +48,68 @@ body {
   transform: scaleX(1);
 }
 .link-border {
-  font-size: 1.3em !important;
+  font-size: 1.3em;
 }
 
 .btn-outline-primary {
-  border-color: #b29050 !important;
-  color: white !important;
+  border-color: #b29050;
 }
 .btn-outline-primary:hover {
-  background-color: #b29050 !important;
-  color: black !important;
+  background-color: #b29050;
+  color: black;
 }
+
+#tekshaha {
+  color: black;
+}
+#tekshaha1 {
+  color: black;
+}
+#tekshaha2 {
+  color: black;
+}
+#tekshaha3 {
+  color: black;
+}
+#tekshaha4 {
+  color: black;
+}
+
+/* Button Login */
+.btnlog {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: whitesmoke;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #b29050;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #b29050;
+}
+
+.btnlog:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #b29050;
+}
+
+.btnlog:active {
+  transform: scale(0.9);
+}
+/* End Button Login */
+
 .Explore {
   display: table-cell;
   vertical-align: middle;
+}
+.tinggi-cont {
+  height: 100vh;
 }
 
 /* 2 */
