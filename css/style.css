@@ -22,10 +22,6 @@ body {
   width: 100%;
 }
 
-.navigasi {
-  /* padding-left: 10rem; */
-  /* padding-right: 10rem; */
-}
 .bgnav {
   background-color: rgb(97, 51, 18, 0.9);
 }
@@ -139,7 +135,35 @@ body {
 }
 /* End Button Login */
 
+/* Testimoni */
+.client {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
 
+.carousel-icon i {
+  font-size: 5rem;
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: #e5eef7;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+  height: auto;
+}
+.carousel .carousel-item {
+  transition-duration: 2s;
+}
+/* Testimoni */
 
 /* foot */
 @media only screen and (min-width: 319px) and (max-width: 767px) {

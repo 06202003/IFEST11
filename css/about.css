@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+body {
+  background-color: whitesmoke;
+}
+.margteng {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+.values {
+  text-decoration: none;
+  list-style: none;
+}
+.t-values {
+  font-size: 1.1em;
+}
+.img-size-about {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 500px;
+}
+.img-about1 {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  max-height: 600px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+/* foot */
+
+.link-secondary {
+  text-decoration: none;
+}
+.logofoot {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 2rem auto 2rem;
+  display: block;
+}
+/* foot */
