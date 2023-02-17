@@ -27,12 +27,12 @@ body {
 .nav-link,
 .nav-link:visited {
   font-size: 1.2em;
-  color: white;
+  color: white !important;
 }
 
 .nav-link:hover {
   font-size: 1.2em;
-  color: white;
+  color: white !important;
 }
 
 .nav-link::after {
@@ -48,31 +48,15 @@ body {
   transform: scaleX(1);
 }
 .link-border {
-  font-size: 1.3em;
+  font-size: 1.3em !important;
 }
 
 .btn-outline-primary {
-  border-color: #b29050;
+  border-color: #b29050 !important;
 }
 .btn-outline-primary:hover {
-  background-color: #b29050;
-  color: black;
-}
-
-#tekshaha {
-  color: black;
-}
-#tekshaha1 {
-  color: black;
-}
-#tekshaha2 {
-  color: black;
-}
-#tekshaha3 {
-  color: black;
-}
-#tekshaha4 {
-  color: black;
+  background-color: #b29050 !important;
+  color: black !important;
 }
 
 /* Button Login */
@@ -85,7 +69,7 @@ body {
   font-size: 18px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: whitesmoke;
+  color: whitesmoke !important;
   background: transparent;
   cursor: pointer;
   transition: ease-out 0.5s;
