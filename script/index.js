@@ -22,3 +22,28 @@ window.addEventListener('scroll', function () {
     teksnav4.style.color = 'black';
   }
 });
+
+const ctx = document.getElementById('myChart');
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
+    datasets: [
+      {
+        label: ' Pengguna Produk Fashion Kulit (Juta Pengguna)',
+        data: [32, 27, 43, 65, 61, 74, 81, 79, 92, 103],
+        borderWidth: 3,
+        borderColor: 'black',
+        pointBorderWidth: 10,
+      },
+    ],
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+  },
+});
