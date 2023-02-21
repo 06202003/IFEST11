@@ -135,6 +135,10 @@ body {
 }
 /* End Button Login */
 
+.spctxt {
+  line-height: 2rem;
+}
+
 /* Testimoni */
 .client {
   width: 100%;
