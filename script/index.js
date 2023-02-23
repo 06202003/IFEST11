@@ -5,6 +5,7 @@ var teksnav1 = document.getElementById('tekshaha1');
 var teksnav2 = document.getElementById('tekshaha2');
 var teksnav3 = document.getElementById('tekshaha3');
 var teksnav4 = document.getElementById('tekshaha4');
+var teksnav10 = document.getElementById('tekshaha10');
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 100) {
     nav.classList.add('bgnav', 'shadow');
@@ -13,6 +14,7 @@ window.addEventListener('scroll', function () {
     teksnav2.style.color = 'white';
     teksnav3.style.color = 'white';
     teksnav4.style.color = 'white';
+    teksnav10.style.color = 'white';
   } else {
     nav.classList.remove('bgnav', 'shadow');
     teksnav.style.color = 'black';
@@ -20,6 +22,7 @@ window.addEventListener('scroll', function () {
     teksnav2.style.color = 'black';
     teksnav3.style.color = 'black';
     teksnav4.style.color = 'black';
+    teksnav10.style.color = 'black';
   }
 });
 
@@ -35,7 +38,7 @@ new Chart(ctx, {
         data: [32, 27, 43, 65, 61, 74, 81, 79, 92, 103],
         borderWidth: 3,
         borderColor: 'black',
-        pointBorderWidth: 10,
+        pointBorderWidth: 7,
       },
     ],
   },
@@ -43,6 +46,16 @@ new Chart(ctx, {
     scales: {
       y: {
         beginAtZero: true,
+      },
+    },
+    plugins: {
+      legend: {
+        labels: {
+          // This more specific font property overrides the global property
+          font: {
+            size: 20,
+          },
+        },
       },
     },
   },

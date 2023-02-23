@@ -131,6 +131,18 @@ body {
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
+.foto1 {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  max-height: 1000px;
+}
+.foto {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 800px;
+}
 /* foot */
 
 .link-secondary {
