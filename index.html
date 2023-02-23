@@ -22,6 +22,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Image Overlay -->
@@ -35,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px">
               <li class="nav-item mx-2">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
@@ -66,13 +68,15 @@
       <div class="container">
         <div class="row d-flex align-items-center justify-content-center mx-auto tinggi-cont">
           <div class="col-md-10 text-white">
-            <h1 class="judulbesar py-1">KOLEKSI FASHION KULIT</h1>
-            <h3 class="judulsedang py-1">DESAIN KERAJINAN TANGAN</h3>
-            <p class="judulkecil py-1">
+            <h1 class="judulbesar py-1" data-aos="zoom-out-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-mirror="true">KOLEKSI FASHION KULIT</h1>
+            <h3 class="judulsedang py-1" data-aos="zoom-out-down" data-aos-offset="200" data-aos-delay="500" data-aos-duration="1000" data-aos-mirror="true">DESAIN KERAJINAN TANGAN</h3>
+            <p class="judulkecil py-1" data-aos="zoom-out-down" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="1000" data-aos-mirror="true">
               Telusuri Koleksi Busana Kulit terbaru dari KulitAbdi.Co. Kualitas tinggi kami, kami memproduksi bahan dasar fashion kulit asli buatan tangan (vintage) dan setiap bahan yang kami gunakan harus melewati kontrol kualitas standar
               untuk menjamin kualitas produk kami.
             </p>
-            <a class="btn btn-lg btn-outline-primary" href="#" role="button"><h4 class="Explore py-1">Jelajahi lebih lanjut</h4></a>
+            <div data-aos="zoom-out-down" data-aos-offset="200" data-aos-delay="1500" data-aos-duration="1000" data-aos-mirror="true">
+              <a class="btn btn-lg btn-outline-primary" href="#" role="button"><h4 class="Explore py-1">Jelajahi lebih lanjut</h4></a>
+            </div>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -127,26 +131,22 @@
         </div>
         <div class="row mt-3 d-flex text-center">
           <div class="col-md-4">
-            <img src="img/toko.jpg" style="width: 350px; height: 250px" alt="" />
+            <img src="img/toko.jpg" style="width: 350px; height: 250px; padding-bottom: 1rem" alt="" />
+            <h3 class="py-2">Lokasi</h3>
+            <h6 class="spctxt text-start">Terletak di bagian utara jantung kota Bandung. 200 meter dari pintu keluar tol Pasteur. Kami berencana untuk membuka toko di beberapa kota besar di Indonesia</h6>
           </div>
           <div class="col-md-4">
-            <img src="img/ahli.jpg" style="width: 350px; height: 250px" alt="" />
+            <img src="img/ahli.jpg" style="width: 350px; height: 250px; padding-bottom: 1rem" alt="" />
+            <h3 class="py-2">Jelajah</h3>
+            <h6 class="spctxt text-start">
+              Kami memiliki beberapa ruangan untuk melihat-lihat produk kami. Anda dapat mencoba desain kami dan berjalan-jalan. Asisten ahli kami dapat memandu Anda memilih produk terbaik yang cocok untuk Anda.
+            </h6>
           </div>
           <div class="col-md-4">
-            <img src="img/jelajah.jpg" style="width: 350px; height: 250px" alt="" />
+            <img src="img/jelajah.jpg" style="width: 350px; height: 250px; padding-bottom: 1rem" alt="" />
+            <h3 class="py-2">Beli</h3>
+            <h6 class="spctxt text-start">Apakah Anda sedang mencari oleh-oleh atau sesuatu untuk dibawa pulang, kami memiliki banyak pilihan produk kulit terbaik di seluruh Indonesia.</h6>
           </div>
-        </div>
-        <div class="row mt-3 d-flex text-center">
-          <div class="col-md-4"><h3>Lokasi</h3></div>
-          <div class="col-md-4"><h3>Jelajah</h3></div>
-          <div class="col-md-4"><h3>Beli</h3></div>
-        </div>
-        <div class="row d-flex text-center">
-          <div class="col-md-4 text-start"><h6 class="spctxt">Terletak di bagian utara jantung kota Bandung. 200 meter dari pintu keluar tol Pasteur. Kami berencana untuk membuka toko di beberapa kota besar di Indonesia</h6></div>
-          <div class="col-md-4 text-start">
-            <h6 class="spctxt">Kami memiliki beberapa ruangan untuk melihat-lihat produk kami. Anda dapat mencoba desain kami dan berjalan-jalan. Asisten ahli kami dapat memandu Anda memilih produk terbaik yang cocok untuk Anda.</h6>
-          </div>
-          <div class="col-md-4 text-start"><h6 class="spctxt">Apakah Anda sedang mencari oleh-oleh atau sesuatu untuk dibawa pulang, kami memiliki banyak pilihan produk kulit terbaik di seluruh Indonesia.</h6></div>
         </div>
       </div>
     </section>
@@ -293,17 +293,24 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+            <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4 text-center">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3 text-secondary"></i> Jl. Prof. drg. Surya Sumantri, M.P.H. No. 65 <span class="ms-4 ps-3">Bandung, West Java, Indonesia</span></p>
+              <div class="tekskiri">
+                <p>
+                  <i class="fas fa-home me-3 text-secondary"></i> Jl. Prof. drg. Surya Sumantri,
+                  <span class="footketkiri2"
+                    >M.P.H. No. 65 <span class="footketkiri">Bandung,West <span class="footketkiri3">Java, Indonesia</span></span></span
+                  >
+                </p>
 
-              <p>
-                <i class="fas fa-envelope me-3 text-secondary"></i>
-                KulitAbdi@gmail.com
-              </p>
-              <p><i class="fas fa-phone me-3 text-secondary"></i> +62 22 - 201 2186 | 200 3450, ext. 7272/7373</p>
-              <p><i class="fas fa-print me-3 text-secondary"></i> +62 22 - 201 5153</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  KulitAbdi@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> +62 22 - 201 2186</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> +62 22 - 201 5153</p>
+              </div>
             </div>
             <!-- Grid column -->
 
@@ -331,6 +338,10 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

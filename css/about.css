@@ -2,7 +2,24 @@
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
+  scrollbar-width: thin;
+  scrollbar-color: blue #b29050;
 }
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #b29050;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6f4628;
+  border-radius: 20px;
+  border: 3px solid #b29050;
+}
+
 body {
   background-color: whitesmoke;
 }
@@ -145,3 +162,45 @@ body {
   display: block;
 }
 /* foot */
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+  .logo {
+    width: 100%;
+    height: auto;
+    max-width: 50px;
+    max-height: 100px;
+  }
+  .judulbesar {
+    font-size: 2.5em;
+  }
+  .judulsedang {
+    font-size: 1.5em;
+  }
+  .judulkecil {
+    font-size: 0.7em;
+  }
+  .navigasi {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .logofoot {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0rem auto 0rem;
+    display: block;
+  }
+  .footketkiri {
+    margin-left: 0rem;
+  }
+  .footketkiri2 {
+    margin-left: 2.5rem;
+  }
+  .footketkiri3 {
+    margin-left: 2.5rem;
+  }
+  .tekskiri {
+    text-align: left;
+    margin-left: 2rem;
+  }
+}
