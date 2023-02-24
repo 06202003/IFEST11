@@ -26,6 +26,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  min-height: 600px;
 }
 .logo {
   width: 35px;
@@ -37,6 +38,69 @@ body {
 .bgHero {
   height: 100vh;
   width: 100%;
+}
+.card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+.card {
+  width: 250px;
+  height: 350px;
+  padding: 0.8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-img {
+  background-color: #ffcaa6;
+  height: 40%;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+.tigad {
+  width: 225px;
+  height: 150px;
+}
+.dalamcarousel {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.card-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+}
+/*Hover*/
+.card-img:hover {
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #b29050;
 }
 
 .bgnav {
@@ -97,7 +161,8 @@ body {
 
 /* 2 */
 .ting {
-  height: 100vh;
+  height: auto;
+  padding-bottom: 3rem;
   background-color: whitesmoke;
 }
 
@@ -238,5 +303,9 @@ body {
   .tekskiri {
     text-align: left;
     margin-left: 2rem;
+  }
+  .tigad {
+    width: 325px;
+    height: 240px;
   }
 }
