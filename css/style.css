@@ -81,6 +81,14 @@ svg {
   padding-left: 6rem;
   padding-right: 6rem;
 }
+.tipsindex {
+  width: 100%;
+  height: auto;
+  max-width: 425px;
+  max-height: 212.5px;
+  text-align: center;
+  margin-top: 3rem;
+}
 .card-footer {
   width: 90%;
   display: flex;
