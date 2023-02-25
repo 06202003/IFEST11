@@ -153,6 +153,13 @@ body {
 .link-secondary {
   text-decoration: none;
 }
+.foto1 {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 400px;
+  margin-bottom: 1rem;
+}
 .logofoot {
   width: 100%;
   height: auto;
